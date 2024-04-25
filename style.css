@@ -1,0 +1,44 @@
+:root{
+    --black: #000;
+    --white: #fff;
+    --salmon: #EF9D71;
+    --darkSalmon: #522521;
+    --lightBlue: #AEDEE0;
+    --darkBlue: #1f2f32;
+    --lightYellow: #f5f19c;
+}
+
+@font-face {
+    font-family: machina;
+    src: url(./NeueMachina-Regular.otf);
+}
+
+body[theme="black"] {
+    background-color: var(--black);
+}
+
+body[theme="black"] .section {
+    color: var(--white);
+}
+
+body[theme="salmon"] {
+    background-color: var(--salmon);
+}
+
+body[theme="lightBlue"] {
+    background-color: var(--lightBlue);
+}
+
+body[theme="lightYellow"] {
+    background-color: var(--lightYellow);
+}
+body[theme="darkSalmon"] {
+    background-color: var(--darkSalmon);
+}
+body[theme="darkBlue"] {
+    background-color: var(--darkBlue);
+}
+
+body[theme="white"] {
+    background-color: var(--white);
+}
